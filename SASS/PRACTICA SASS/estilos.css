@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  top: 0px;
+  margin: 0px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.contenedor_hijo1 {
+  background-color: green;
+  height: 200px;
+  width: 100px;
+  border: 5px solid black;
+  padding: 10px;
+}
+.contenedor_hijo2 {
+  background-color: red;
+  height: 200px;
+  width: 100px;
+  border: 5px solid black;
+  padding: 10px;
+}
+.contenedor_hijo3 {
+  background-color: blue;
+  height: 200px;
+  width: 100px;
+  border: 5px solid black;
+  padding: 10px;
+}/*# sourceMappingURL=estilos.css.map */
